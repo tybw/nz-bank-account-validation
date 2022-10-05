@@ -23,12 +23,13 @@ class BankAccountValidator
     private function initializeBankData()
     {
         $this->bankData = [
-            // Data from pages 10 and 11 of
-            // https://www.ird.govt.nz/resources/d/8/d8e49dce-1bda-4875-8acf-9ebf908c6e17/rwt-nrwt-spec-2014.pdf
+            // Data from pages 15 and 17 of
+            // https://www.ird.govt.nz/-/media/project/ir/home/documents/income-tax/withholding-taxes/rwt-nrwt-withholding-tax-certificate/2020-rwt-and-nrwt-certificate-filing-specification.pdf
             1 =>    ['algorithm' => 'AB', 'branches' => [[1, 999], [1100, 1199], [1800, 1899]]],
             2 =>    ['algorithm' => 'AB', 'branches' => [[1, 999], [1200, 1299]]],
             3 =>    ['algorithm' => 'AB',
                      'branches' => [[1, 999], [1300, 1399], [1500, 1599], [1700, 1799], [1900, 1999]]],
+            4 =>    ['algorithm' => 'X', 'branches' => [[2020, 2024]],
             6 =>    ['algorithm' => 'AB', 'branches' => [[1, 999], [1400, 1499]]],
             8 =>    ['algorithm' => 'D',  'branches' => [[6500, 6599]]],
             9 =>    ['algorithm' => 'E',  'branches' => [[0, 0]]],
