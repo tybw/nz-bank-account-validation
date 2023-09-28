@@ -29,7 +29,7 @@ class BankAccountValidator
             2 =>    ['algorithm' => 'AB', 'branches' => [[1, 999], [1200, 1299]]],
             3 =>    ['algorithm' => 'AB',
                      'branches' => [[1, 999], [1300, 1399], [1500, 1599], [1700, 1799], [1900, 1999]]],
-            4 =>    ['algorithm' => 'X', 'branches' => [[2020, 2024]],
+            4 =>    ['algorithm' => 'X', 'branches' => [[2014, 2024]]],
             6 =>    ['algorithm' => 'AB', 'branches' => [[1, 999], [1400, 1499]]],
             8 =>    ['algorithm' => 'D',  'branches' => [[6500, 6599]]],
             9 =>    ['algorithm' => 'E',  'branches' => [[0, 0]]],
